@@ -1,0 +1,42 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+}
+
+#container{
+position: relative;
+top: 100px;
+background: #59788E;
+width: 500px;
+}
+
+#content-box{
+  background: #FFF;
+  padding: 15px;
+  margin-bottom: 15px;
+
+}
+
+ul{
+  position: relative;
+  margin-bottom: 15px;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: left;
+}
+
+a{
+  text-decoration: none;
+  background: #59788E;
+  padding: 15px;
+}
+
+a:hover{
+  background:#52B2BF;
+}
+
+#content-box{
+  font-family: monospace;
+}
